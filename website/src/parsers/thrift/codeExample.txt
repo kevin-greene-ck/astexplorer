@@ -1,0 +1,25 @@
+/**
+ * Thrift is an IDL for defining contracts between services in a
+ * microservice architecture. A code generator will take the IDL
+ * file and create code for clients and servers in a variety of
+ * languages.
+ *
+ * Drop some code in, poke around.
+ */
+namespace js test
+
+const string test = 'test'
+
+enum MyEnum {
+	RED,
+	GREEN,
+	BLUE,
+}
+
+struct MyStruct {
+	1: optional string test
+}
+
+service MyService {
+	void ping()
+}

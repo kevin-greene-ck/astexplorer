@@ -47,6 +47,8 @@ The AST explorer provides following code parsers:
   - [Scalameta][]
 - SQL:
   - [sqlite-parser][]
+- ThriftIDL:
+  - [thrift-parser][]
 - [WebIDL][]
 - [YAML][]
 
@@ -116,6 +118,7 @@ node.
 [recast]: https://github.com/benjamn/recast
 [rework]: https://github.com/reworkcss/rework
 [shift]: https://github.com/shapesecurity/shift-parser-js
+[thrift-parser]: https://github.com/creditkarma/thrift-parser
 [traceur]: https://github.com/google/traceur-compiler
 [typescript]: https://github.com/Microsoft/TypeScript/
 [typescript-eslint-parser]: https://github.com/eslint/typescript-eslint-parser/
